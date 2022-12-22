@@ -1,0 +1,31 @@
+{
+  "name": "js-format-cep",
+  "version": "1.0.0",
+  "description": "Lib to format CEP",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "test": "jest --no-cache",
+    "build": "tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliosilvacwb/js-format-cep.git"
+  },
+  "keywords": [
+    "formatar",
+    "cep"
+  ],
+  "author": "Julio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliosilvacwb/js-format-cep/issues"
+  },
+  "homepage": "https://github.com/juliosilvacwb/js-format-cep#readme",
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
